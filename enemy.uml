@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wayne.airplane.enemy</OriginalElement>
+  <nodes>
+    <node x="0.0" y="378.0">com.wayne.airplane.enemy.SmallEnemyPlane</node>
+    <node x="465.0" y="366.5">com.wayne.airplane.enemy.MiddleEnemyPlane</node>
+    <node x="687.0" y="390.0">com.wayne.airplane.award.LifeAdd</node>
+    <node x="1353.0" y="286.0">com.wayne.airplane.ownplane.OwnPlane</node>
+    <node x="222.0" y="343.5">com.wayne.airplane.enemy.BigEnemyPlane</node>
+    <node x="685.5" y="0.0">com.wayne.airplane.flyingObject.FlyingObject</node>
+    <node x="1131.0" y="390.0">com.wayne.airplane.award.DoubleFire</node>
+    <node x="227.25" y="81.0">com.wayne.airplane.enemy.Enemy</node>
+    <node x="909.0" y="413.0">com.wayne.airplane.bullet.Bullet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wayne.airplane.award.DoubleFire" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="0.0" y="-85.5" />
+      <point x="1232.0" y="256.0" />
+      <point x="846.5714285714286" y="256.0" />
+      <point x="58.571428571428555" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.BigEnemyPlane" target="com.wayne.airplane.enemy.Enemy">
+      <point x="-55.75" y="-132.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.wayne.airplane.ownplane.OwnPlane" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="0.0" y="-189.5" />
+      <point x="1460.0" y="246.0" />
+      <point x="875.8571428571429" y="246.0" />
+      <point x="87.85714285714289" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.MiddleEnemyPlane" target="com.wayne.airplane.enemy.Enemy">
+      <point x="-50.5" y="-109.0" />
+      <point x="515.5" y="236.0" />
+      <point x="311.41666666666674" y="236.0" />
+      <point x="33.66666666666674" y="27.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.MiddleEnemyPlane" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="50.5" y="-109.0" />
+      <point x="616.5" y="266.0" />
+      <point x="758.7142857142858" y="266.0" />
+      <point x="-29.28571428571422" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.SmallEnemyPlane" target="com.wayne.airplane.enemy.Enemy">
+      <point x="-50.5" y="-97.5" />
+      <point x="50.5" y="236.0" />
+      <point x="244.08333333333326" y="236.0" />
+      <point x="-33.66666666666674" y="27.0" />
+    </edge>
+    <edge source="com.wayne.airplane.award.LifeAdd" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.SmallEnemyPlane" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="50.5" y="-97.5" />
+      <point x="151.5" y="246.0" />
+      <point x="700.1428571428571" y="246.0" />
+      <point x="-87.85714285714289" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.bullet.Bullet" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="0.0" y="-62.5" />
+      <point x="1010.0" y="266.0" />
+      <point x="817.2857142857143" y="266.0" />
+      <point x="29.285714285714334" y="108.0" />
+    </edge>
+    <edge source="com.wayne.airplane.enemy.BigEnemyPlane" target="com.wayne.airplane.flyingObject.FlyingObject">
+      <point x="55.75" y="-132.0" />
+      <point x="389.25" y="256.0" />
+      <point x="729.4285714285714" y="256.0" />
+      <point x="-58.571428571428555" y="108.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1105.0" y="389.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
